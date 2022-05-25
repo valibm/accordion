@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accordion {
+  width: 500px;
+  border: 1px solid gray;
+  -webkit-box-shadow: 0 0 1px 0px;
+          box-shadow: 0 0 1px 0px;
+  padding: 5px;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+}
+
+p {
+  margin: 5px 24px 32px 24px;
+}
+
+#first {
+  display: block;
+}
+
+.text {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ section{
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .d-flex{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .content-center{
+    justify-content: center;
+    align-items: center;
+ }
+
+ .accordion{
+     width: 500px;
+     border: 1px solid gray;
+     box-shadow: 0 0 1px 0px;
+     padding: 5px;
+ }
+
+ .btn{
+     width: 100%;
+     height: 35px;
+ }
+
+ p{
+     margin: 5px 24px 32px 24px;
+ }
+
+ #first{
+    display: block;
+ }
+
+ .text{
+     display: none;
+ }
